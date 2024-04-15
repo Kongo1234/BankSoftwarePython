@@ -1,0 +1,2 @@
+Name: Szymon, Last Name: Kowalski, Email: kongobongo@gmail.com, Telephone: 432123456, UserId: 9463704649, Password: KongoTest12, Balance: 750.0
+Name: Kuba, Last Name: Kowalski, Email: kowalski@gmail.com, Telephone: 123456789, UserId: 724, Password: Kowalskitest1, Balance: 450.0
