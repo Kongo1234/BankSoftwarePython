@@ -44,7 +44,7 @@ def get_user_balance_from_file(usersId):
         for line in file:
             if usersId in line:
                 user_data = line.strip().split(", ")
-                balance = float(user_data[-1].split(":")[-1].strip())  # Correctly read balance as float
+                balance = float(user_data[-1].split(":")[-1].strip())  
                 return balance
     return 0
 
@@ -63,7 +63,7 @@ def login(usersId, password):
                 if password == existing_password:
                     print("Login successful!")
                     try:
-                        balance = float(user_data[-1].split(":")[-1].strip())  # Correctly read balance as float
+                        balance = float(user_data[-1].split(":")[-1].strip()) 
                     except IndexError:
                         print("User data incomplete. Unable to retrieve balance.")
                         break
